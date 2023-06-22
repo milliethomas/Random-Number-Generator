@@ -1,6 +1,27 @@
 body{
-    text-align:center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+*{
+    margin:0;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container * {
+    margin:10px 0px 10px 0px;
+}
+
+.input input{
+    margin:19px;
+    height:30px;
+    width: 150px;
 }
 
 h1{

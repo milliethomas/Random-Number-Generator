@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Random Number Generator</h1>
-    <h2 id="num"></h2>
-    
-    <button id="generateBtn">Generate Number</button>
-
+    <div class="container">
+        <h1>Random Number Generator</h1>
+        <h2 id="num">0</h2>
+        <button id="generateBtn">Generate Number</button>
+        <div class="input">
+            <span>Min</span>
+            <input type="number" id="lower" value="1">
+            <span>Max</span>
+            <input type="number" id="upper" value="100">
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
