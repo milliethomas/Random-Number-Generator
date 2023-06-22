@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color:blue
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: crimson;
+    color:aliceblue;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
